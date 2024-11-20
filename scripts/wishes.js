@@ -102,7 +102,7 @@ function updateWishesList() {
 
     wishesList.innerHTML = `
         <!-- Active Wishes -->
-        <div class="space-y-4">
+        <div class="space-y-4 p-4">
             <h3 class="text-lg font-semibold">Active Wishes 进行中的愿望</h3>
             ${activeWishes.map(wish => createWishCard(wish)).join('')}
         </div>
